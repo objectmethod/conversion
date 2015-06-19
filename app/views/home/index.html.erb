@@ -1,0 +1,6 @@
+<%= form_tag("/convert", method: "get") do %>
+  <%= label_tag(:fahrenheit, "Fahrenheit:") %>
+  <%= text_field_tag(:fahrenheit) %>
+  <br/>
+  <%= submit_tag("Convert") %>
+<% end %>
